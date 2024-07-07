@@ -149,3 +149,46 @@ header{
     margin-top: 10px;
     font-size: 14px;
  }
+
+
+ /* prebious next code start hare */
+
+ #previous-next-parent{
+    
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ #previous-next-parent > h3{
+       padding: 10px 20px ;
+       background-color:#08A56C ;
+       border-radius: 5px ;
+       transition: .5s;
+       
+ }
+ #previous-next-parent > h3:hover{
+    background-color:#098155 ;
+ }
+ #previous-next-parent a{
+    text-decoration: none;
+    color: white;
+    padding: 0 5px ;
+ }
+ #previous-next-parent i{
+    font-size: 15px;
+    color:white;
+    
+ }
+ #previous-next-parent > div > a{
+     margin: 0 10px;
+     background-color: white;
+     padding: 8px;
+     color: black;
+     border-radius: 5px;
+     border: 1px solid gray;
+ }
+ #previous-next-parent > div > a:first-child{
+    background-color: #08A56C;
+    color: white;
+ }
