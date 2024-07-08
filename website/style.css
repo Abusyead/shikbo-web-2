@@ -153,6 +153,10 @@ header{
 
  /* prebious next code start hare */
 
+ footer{
+   background-color: #5F1E69;
+ }
+
  #previous-next-parent{
     
     padding-top: 100px;
@@ -192,3 +196,74 @@ header{
     background-color: #08A56C;
     color: white;
  }
+
+
+ /* footer code start hare */
+
+
+ .footer-single-items-parent{
+    width: 1000px;
+    margin: auto;
+   display: grid;
+   grid-template-columns:  repeat(3, 1fr);
+   justify-content: space-between;
+   grid-gap: 50px;
+   color: white;
+   padding-bottom:50px ;
+   
+}
+/* .footer-single-items-parent div{
+   /* background-color: orange; 
+} */
+.footer-frist-item h3{
+   font-size: 25px;
+   margin-bottom: 20px;
+   margin-top: 30px;
+}
+.footer-frist-item:first-child p{
+   margin-bottom: 20px;
+}
+
+.footer-second-item h3{
+   font-size: 25px;
+   margin-top: 30px;
+   margin-bottom: 20px;
+}
+.footer-second-item a {
+   text-decoration: none;
+   color: white;
+}
+.footer-second-item p{
+   margin-bottom: 10px;
+
+}
+.footer-third-item div{
+   font-size: 25px;
+   margin-top: 30px;
+   margin-bottom: 20px;
+}
+.footer-third-item div a{
+   text-decoration: none;
+   margin-right: 10px;
+  
+   border-radius: 5px;
+   color: white;
+   display: inline-block;
+   
+
+}
+.footer-third-item div a i{
+   display: flex;
+   align-items: center; 
+   background-color: black;
+   justify-content: center;
+   width: 40px;
+   height: 40px;
+   border-radius: 5px;
+}
+.footer-third-item p{
+   margin-bottom: 10px;
+}
+.footer-third-item p:last-child{
+   margin-top: 40px;
+}
